@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Simulation
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=cashierNum
+comment2.target=Simulation(int)
+comment3.params=a\ seed1\ seed2
+comment3.target=void\ readFile(java.lang.String,\ int,\ int)
+comment4.params=
+comment4.target=float\ simulate()
+comment5.params=
+comment5.target=void\ waitForNextCashier()
+numComments=6
