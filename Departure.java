@@ -14,7 +14,8 @@ public class Departure extends Event
     public Departure(int time, Customer customer, int counter)
     {
       this.customer = customer;
-      startTime = time + customer.orderingTime;
+      if (customer.arrival > time) startTime = customer.arrival + customer.orderingTime;
+      else startTime = time + customer.orderingTime;
       this.counter = counter;
     }
 

@@ -20,12 +20,12 @@ public class Main
       Simulation simulation = new Simulation(x);
       simulation.readFile("input.txt",1,1);
 
-      System.out.println("Net Profit for one day: " + simulation.simulate());
+      System.out.println("Net Profit for one day: $" + simulation.simulate());
       System.out.println("the number of customer served: " + simulation.customerServed);
       System.out.println("the number of overflow: " + simulation.overflow);
       System.out.println("overflow rate: " + simulation.overflowRate*100 + "%");
-      System.out.println("average waiting time for each customer: " + simulation.averageWaitTime);
-      System.out.println("maximum waiting time is: " + simulation.maxWait);
+      System.out.println("average waiting time for each customer: " + simulation.averageWaitTime + " seconds");
+      System.out.println("maximum waiting time is: " + simulation.maxWait + " seconds");
     } catch(Exception e) {
 
     }

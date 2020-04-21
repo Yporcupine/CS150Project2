@@ -4,7 +4,6 @@ public class Cashier implements Comparable<Cashier>
 {
 
   public int time;
-  Customer customerAtCounter;
   public int counter;
   //private int timeLower;
   //private int timeUpper;
@@ -17,9 +16,8 @@ public class Cashier implements Comparable<Cashier>
   }
 
   public float serve(Customer customer){
-    customerAtCounter = customer;
     if(customer.arrival > time) time = customer.arrival + customer.orderingTime;
-    else time += customerAtCounter.orderingTime;
+    else time += customer.orderingTime;
     return customer.orderAmount;
   }
 
