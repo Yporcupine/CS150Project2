@@ -1,9 +1,9 @@
 /**
- * Write a description of class departure here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+* Write a description of class Customer here.
+*
+* @author Harry Zhu
+* @version 4/20/2020
+*/
 public class Departure extends Event
 {
     // instance variables - replace the example below with your own

@@ -2,8 +2,8 @@
 /**
 * Write a description of class Customer here.
 *
-* @author Yuehao Zhu
-* @version 3/25/2020
+* @author Harry Zhu
+* @version 4/20/2020
 */
 public class Customer implements Comparable<Customer>
 {

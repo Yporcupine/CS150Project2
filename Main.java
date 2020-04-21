@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.*;
 /**
-* Write a description of class Main here.
+* Write a description of class Customer here.
 *
-* @author (your name)
-* @version (a version number or a date)
+* @author Harry Zhu
+* @version 4/20/2020
 */
 public class Main
 {

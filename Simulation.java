@@ -1,5 +1,11 @@
 import java.util.*;
 import java.io.*;
+/**
+* Write a description of class Customer here.
+*
+* @author Harry Zhu
+* @version 4/20/2020
+*/
 public class Simulation{
 
   Scanner sc;
@@ -91,7 +97,13 @@ public class Simulation{
     this.cashierNum = cashierNum;
     overflow = 0;
   }
-
+  /**
+   * a method to extracts data from input file and put it into Simulation
+   *
+   * @param  a  name of the file to be read
+   * @param  seed1 the seed for random ordering time of each Customer
+   * @param  seed2 the seed for random amount to be spent by each Customer
+   */
   public void readFile(String a, int seed1, int seed2){
     try{
       sc = new Scanner(new FileReader(a));
@@ -129,7 +141,12 @@ public class Simulation{
       System.out.println(e);
     }
   }
-
+  /**
+   * to run the shop for an entire day
+   *
+   *
+   * @return    the amount of profit that is generated
+   */
   public float simulate(){
 
     int waitTimeTotal = 0;

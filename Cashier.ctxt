@@ -1,9 +1,12 @@
 #BlueJ class context
 comment0.target=Cashier
+comment0.text=\r\n\ class\ of\ one\ cashier\ for\ the\ shop\r\n\r\n\ @author\ Harry\ Zhu\r\n\ @version\ 4/20/2020\r\n
 comment1.params=counter
 comment1.target=Cashier(int)
 comment2.params=customer
 comment2.target=float\ serve(Customer)
+comment2.text=\r\n\ method\ for\ a\ cashier\ to\ serve\ a\ customer\r\n\r\n\ @param\ \ customer\ \ the\ customer\ to\ be\ served\r\n\ @return\ \ \ \ revenue\ generated\ from\ serving\ the\ customer\r\n
 comment3.params=e
 comment3.target=int\ compareTo(Cashier)
+comment3.text=\r\n\ compare\ by\ time\r\n\r\n\ @param\ \ e\ \ the\ cashier\ to\ be\ compared\r\n\ @return\ \ \ \ the\ difference\ in\ time\r\n
 numComments=4

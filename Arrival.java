@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class arrival here.
+ * event of a customer arriving at shop
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Harry Zhu
+ * @version 4/20/2020
  */
 public class Arrival extends Event
 {
