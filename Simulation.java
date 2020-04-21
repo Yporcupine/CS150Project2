@@ -135,7 +135,7 @@ public class Simulation{
     int waitTimeTotal = 0;
 
 
-    while((!eventsIn.isEmpty()) || (!line.isEmpty())){
+    while(!eventsIn.isEmpty()){
 
       //if no more cashiers, put people in line until next departure
       if(cashiers.isEmpty()) {
