@@ -135,7 +135,7 @@ public class Simulation{
     int waitTimeTotal = 0;
 
 
-    while(!eventsIn.isEmpty()){
+    while((!eventsIn.isEmpty()) || (!line.isEmpty())){
 
       //if no more cashiers, put people in line until next departure
       if(cashiers.isEmpty()) {
@@ -186,7 +186,7 @@ public class Simulation{
   }
 
   private void waitForNextCashier(){
-    while(cashiers.isEmpty() && (!eventsIn.isEmpty())){
+    while(cashiers.isEmpty() ){
       rightnow = eventsIn.remove();
       if(rightnow instanceof Arrival){
         if(line.size() >= cashierNum*8) {
