@@ -40,9 +40,9 @@ public class Simulation{
   public static void main(String[] args) {
     try {
       Simulation simulation;
-      File cafeSim = new File("cafeSimProfit.csv");
-      File overFlow = new File("overFlowRate.csv");
-      File averageWaiting = new File("averagewaitimgTime.csv");
+      new File("cafeSimProfit.csv");
+      new File("overFlowRate.csv");
+      new File("averagewaitimgTime.csv");
       PrintWriter simData = new PrintWriter("cafeSimProfit.csv");
       PrintWriter overflow = new PrintWriter("overFlowRate.csv");
       PrintWriter averagewaiting = new PrintWriter("averagewaitimgTime.csv");
